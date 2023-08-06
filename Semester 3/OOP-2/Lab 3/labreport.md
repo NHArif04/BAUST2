@@ -1,4 +1,4 @@
-# Lab Report: (Problem Explanation with solution)
+# OOP-2 Lab Report: (Problem Explanation with solution)
 
 - ID, Name, CGPA => user input and output
 - nextInt(), nextLine(), next()  => problem and solution with code
