@@ -2,7 +2,7 @@
 
 
 void linearSearchPointer(int* arr,int target){
-    while(*arr != NULL){
+    while(arr){
         if(*arr++ == target){
             printf("Found!");
             return;

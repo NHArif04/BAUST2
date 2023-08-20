@@ -1,7 +1,6 @@
 #include<stdio.h>
 
-int* getPointer(int a){
-}
-
 int main(){
-
+    
+    return 0;
+}
