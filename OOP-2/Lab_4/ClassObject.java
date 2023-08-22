@@ -1,5 +1,6 @@
-class B{
-    int fun(int height, int width){
+//package Lab4;
+class calc{
+    int area(int height, int width){
         return height*width;
     }
 }
@@ -8,9 +9,9 @@ public class ClassObject {
     public static void main(String[] args) {
         //ClassObject object = new ClassObject();
         
-        B obj = new B();
+        calc obj = new calc();
         
-        System.out.println(obj.fun(40,50));
+        System.out.println("Area is: "+obj.area(40,50));
         
     }
 }

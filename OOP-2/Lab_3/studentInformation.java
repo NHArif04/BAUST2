@@ -5,8 +5,9 @@ public class studentInformation {
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter You ID: ");
         int ID = scan.nextInt();
+        scan.nextLine(); // consume the newline character
         System.out.println("Enter You Name: ");
-        String Name =  scan.nextLine();             //next() function to take separately string with "\n"
+        String Name =  scan.nextLine();
         System.out.println("Enter You CGPA: ");
         Float CGPA = scan.nextFloat();
         System.out.println("ID: "+ID+"\nName: "+Name+"\nCGPA: "+CGPA);

@@ -2,7 +2,7 @@
 Design and Implementation of Binary to Gray Code and Gray to Binary Code Converters
 
 ## Objectives:
-- To understand conversion between binary code and gray code.
+- To understand Gray code and its conversion from binary code.
 - To design and implement the converter circuits using logic gates.
 - To test the circuits by providing all possible input combinations.
 
@@ -18,21 +18,11 @@ Design and Implementation of Binary to Gray Code and Gray to Binary Code Convert
 - Power supply
 
 ## Theory:
-Gray code is a binary numeral system where two successive values differ in only one bit. It is also known as reflected binary code.
+Gray code is a binary numeral system where two successive values differ in only one bit. The conversion from binary to Gray code follows these rules:
+- The Most Significant Bit (MSB) remains the same as the binary MSB.
+- Other bits are obtained by applying the XOR operation between the current and previous binary bits. Gray to binary conversion is the reverse process.
 
-Binary code is a way of representing data using only two symbols, typically 0 and 1.
-
-Binary to Gray code conversion:
-
-- The MSB of the Gray code is equal to the MSB of the binary code.
-- Other bits of the Gray code can be obtained by XORing the current and previous binary bits.
-
-Gray code to binary conversion:
-
-- The MSB of the binary code is equal to the MSB of the Gray code.
-- Other bits of the binary code can be obtained by checking the Gray code bit at that index. If it is 0, copy the previous binary bit, else copy its invert.
-
-### Table:
+#### Table:
 
 ## Circuit Diagram:
 
